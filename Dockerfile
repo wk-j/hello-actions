@@ -10,6 +10,8 @@ LABEL "com.github.actions.description"="Say things with a cow"
 
 RUN gem install ruby_cowsay
 
+WORKDIR /app
+
 COPY cow.rb .
 
-ENTRYPOINT ["ruby", "cow.rb"]
+ENTRYPOINT ["ruby", "/app/cow.rb"]

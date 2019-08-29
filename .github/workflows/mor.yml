@@ -7,3 +7,5 @@ jobs:
     steps:
 
     - uses: wk-j/hello-actions@master
+      with:
+        args: Yo yo yo!
