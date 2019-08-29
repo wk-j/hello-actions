@@ -1,7 +1,7 @@
 on: push
 name: mor
 
-job:
+jobs:
   sayHi:
     runs-on: ubuntu-latest
     steps:
